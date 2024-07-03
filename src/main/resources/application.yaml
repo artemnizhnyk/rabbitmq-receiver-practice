@@ -1,1 +1,12 @@
-spring.application.name=rabbitmq-receiver-practice
+server:
+  port: 8081
+
+spring:
+  application:
+    name: rabbitmq-receiver-practice
+
+  rabbitmq:
+    host: localhost
+    username: USER
+    password: PASSWORD
+    port: 5672
